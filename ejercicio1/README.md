@@ -13,4 +13,8 @@ git commit -m "version inicial"
 pwd
 cd ejercicio1
 git add README.md
-git 
+git commit -m "Agrega solución primer ejercicio"
+cd ..
+git remote add origin https://github.com/joker2207/aspirantes-mir-ejercicio-1.git
+git branch -M main
+git push -u origin main
